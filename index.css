@@ -1,0 +1,696 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: none;
+  }
+  
+  .f1 {
+    display: flex;
+    flex-direction: column;
+    height: 50em;
+    background-image: url("../../assets/images/imagem-2.JPG");
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 650px;
+  }
+  
+  .logo {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  
+  .conteudo-1 {
+    margin-top: 85px;
+    margin-left: 145px;
+    color: white;
+  }
+  .titulo-f1 {
+    font-family: "Montserrat-bold", Helvetica, Sans-serif !important;
+    font-size: 1.5em;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .botao-f1 a {
+    height: 95px;
+    width: 180px;
+    background-color: #ee2e5d;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 25px 40px;
+    line-height: 69px;
+    height: 69px;
+    font-weight: 700;
+  }
+  
+  @media (max-width: 1024px) {
+    .container,
+    .f1,
+    .cabecalho-1,
+    .conteudo-1 {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  /* FAIXA-2 */
+  
+  .faixa-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+    justify-content: center;
+  }
+  
+  .titulo-f2 {
+    font-size: 1em;
+    font-family: "Source Sans Pro", Roboto, Sans-serif;
+    font-weight: bold;
+    color: #666666;
+    line-height: 28px;
+  }
+  
+  .texto1-f2 {
+    font-family: "Montserrat-bold", Helvetica, Sans-serif !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 450px;
+    line-height: 35px;
+  }
+  
+  .texto2-f2 {
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    max-width: 400px;
+    margin-left: 100px;
+  }
+  
+  .t2-f2 {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .texto1-f2 {
+      margin-bottom: 50px;
+    }
+    .texto2-f2 {
+      margin-left: 0px;
+      justify-content: center;
+    }
+  }
+  /* FAIXA-3 */
+  
+  .faixa-3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f6fa;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .conteudo-2-f3 img {
+      margin-left: 50px;
+    }
+  }
+  .conteudo-1-f3 {
+    margin: 50px 0px 50px 100px;
+  }
+  
+  .titulo-conteudo-f3 {
+    font-family: "Source Sans Pro", Roboto, Sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 20px;
+  }
+  
+  .subtitulo-conteudo-f3 {
+    font-family: "Montserrat-bold", Helvetica, Sans-serif !important;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+  
+  .listas-faixa-3 {
+    font-family: "Source Sans Pro", Roboto, Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #2e2d33;
+    margin-right: 100px;
+  }
+  
+  .conteudo-2-f3 img {
+    width: 80%;
+  }
+  
+  /* faixa-4*/
+  
+  .faixa-4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1b1f;
+  
+  }
+  
+  .text-pt1 {
+    display: flex;
+    flex-direction: column;
+    margin: 130px 70px;
+  
+  }
+  .text-pequeno-f4 {
+    color: #666666;
+    font-family: "Source Sans Pro", Helvetica, Arial, Sans-Serif, sans-serif;
+    font-weight: bold;
+  }
+  .texto-rosa {
+    font-family: "Montserrat-bold", Helvetica, Sans-serif;
+    color: #ee2e5d;
+    font-size: 20px;
+  
+  }
+  
+  .texto-rosa span {
+    font-family: "Montserrat-bold", Helvetica, Sans-serif;
+    color: #fff;
+    margin-top: 0px;
+  }
+  
+  .text-small {
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    color: #fff;
+  
+    max-width: 380px;
+    margin-top: 200px;
+    margin-right: 260px;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa4,
+    .total-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .total-text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+  }
+  
+  /* faixa-5 */
+  
+  .faixa-5 {
+    background-color: #000;
+    color: #f5f6fa;
+    padding: 130px 50px 80px 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conteudo-f5 {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .texto-f5 {
+    font-family: "Source Sans Pro", Roboto, Sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .subtexto-f5 {
+    margin-left: 465px;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+  }
+  
+  @media (max-width: 0px) {
+    .texto-f5,
+    .subtexto-f5 {
+      margin: 0px 0px 0px 0px;
+    }
+  
+    .texto-f5 {
+      margin-bottom: 30px !important;
+    }
+  }
+  
+  /* faixa-6 */
+  
+    .faixa-6{
+     display: flex;
+     flex-direction: column;
+     padding-top: 100px;
+     padding-bottom: 150px;
+     background-color: black;
+     background-image: url("https://f.hubspotusercontent20.net/hubfs/5032423/background-palestra-warren-educacao-incompany.png");
+     background-size: 100%;
+     background-attachment: fixed;
+    }
+  
+    .itens{
+     display: flex;
+     flex-direction: row;
+     margin-left: 400px;
+    }
+  
+    .item-1, .item-2, .item-3, .item-4{
+      color: white;
+      margin-right: 100px;
+      font-family: "Source Sans Pro", Helvetica, Arial, Sans-Serif, sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      padding: 50px 50px 0px 0px;
+    }
+  
+  
+    .item-1{
+    background-image: url("https://f.hubspotusercontent20.net/hubfs/5032423/educacao-financeira%201.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    }
+  
+    .item-2{
+      background-image: url("https://f.hubspotusercontent20.net/hubfs/5032423/investimento%201.png");
+      background-size: 70%;
+      background-repeat: no-repeat;
+    }
+  
+  
+    .item-3{
+      background-image: url("https://f.hubspotusercontent20.net/hubfs/5032423/planejamento-financeiro%201.png");
+      background-size: 70%;
+      background-repeat: no-repeat;
+      margin-bottom: 10px;
+    }
+  
+    .item-4{
+      background-image: url("https://f.hubspotusercontent20.net/hubfs/5032423/cenario-macroeconomico%201.png");
+      background-size: 70%;
+      background-repeat: no-repeat;
+    }
+  
+  
+  
+  /* faixa-7 */
+  
+  
+  
+  .faixa-7 {
+    display: flex;
+    flex-direction: column;
+    padding: 140px 0px 160px 80px;
+    background-color: #f5f6fa;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa-7{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  }
+  
+  .parte-1 {
+    padding-bottom: 160px;
+  }
+  
+  .text-1 {
+    font-family: "Source Sans Pro", Roboto, Sans-serif;
+    font-weight: bold;
+    color: #666666;
+  }
+  
+  .text-3, .text-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat-bold',Helvetica,Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  
+  .marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  .marca {
+    margin-right: 120px;
+  }
+  
+  .marcas-de-cima {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .marcas-de-baixo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+  }
+  
+  /* faixa-8 */
+  
+  .faixa-8 {
+    background-color: #1c1b1f;
+    padding: 60px 50px;
+    justify-content: center;
+  }
+  
+  .botao-f8 {
+    padding: 24px 40px;
+    border-radius: 35px;
+    margin-left: 400px;
+    justify-content: center;
+    background-color: #ee2e5d;
+    border: none;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  
+  @media (max-width: 1024px) {
+    .botao-f8,
+    .botao,
+    .faixa-8 {
+      justify-content: center;
+      align-items: center;
+    }
+    .botao {
+      padding-left: 0px !important;
+    }
+  }
+  
+  
+  /* faixa-9 */
+  
+  .faixa-9{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .titulo-f9{
+    font-weight: bold;
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 5px;  
+  }
+  
+  .subtitulo-f9{
+  font-family: 'Montserrat-bold',Helvetica,Sans-serif;
+  font-size: 40px;  
+  font-weight: 700;
+  }
+  
+  .setdebox-f9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  }
+  
+  .box-f9{
+  max-width: 350px;
+  background-color: #F5F5F5;
+  padding: 20px 20px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  }
+  
+  .texto-box-f9{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .autor-box-f9{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    padding-bottom: 10px;
+  }
+  
+  .img-final-box-f9 img{
+  width: 80px;
+  height: 50px;
+  }
+  
+  .textos-f9{
+  margin-left: 120px;
+  }
+  
+  @media (max-width: 1024px){
+  .faixa-9, .setdebox-f9{
+    display: flex;
+    flex-direction: column;
+  }
+  .faixa-9{
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+  }
+  }
+  
+  /* faixa-10*/
+  
+  
+  
+  .Faixa-10 {
+    display: flex;
+    flex-direction: row;
+    background-color: #ed2e5d;
+    padding: 50px 0px 50px 0px;
+  }
+  
+  
+  .text-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  
+  .text-pequeno {
+    font-size: 17px;
+    color: #e3e4eb;;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  
+  .title {
+    color: white;
+    margin-left: 40px;
+  }
+  
+  .Conteudo {
+    font-size: 16px;
+    color: white;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    max-width: 700px;
+  }
+  
+  .Conteudo-2-f10{
+    color: white;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    max-width: 1000px;
+  }
+  
+  .img img{
+    width: 60%;
+    margin-top: 90px;
+    margin-left: 250px;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa-10, .text-1, .img {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .text-pequeno {
+        margin-right: 40px;
+      }
+      .title {
+        margin-right: 30px;
+      }
+      .Conteudo {
+        margin-right: 40px;
+      }
+      .img img {
+        margin-left: 40px;
+        }
+  }
+  
+  
+  
+  .faixa-11{
+   display: flex;
+   flex-direction: column;  
+   padding: 100px 0px 100px 0px
+  }
+  
+  .textos-f11{
+  text-align: center;  
+  }
+  
+  .conteudo-f11{
+  margin-left: 300px;
+  
+  }
+  
+  
+  
+  .titulo-f11{
+    font-family: 'Montserrat-bold',Helvetica,Sans-serif !important;
+    font-size: 2.5rem;
+    line-height: 2.5rem;  
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-weight: 700;  
+  }
+  
+  .texto-f11{
+    font-size: 16px;
+      font-weight: 400;
+      font-family: 'Source Sans Pro',Roboto,Sans-serif;
+      letter-spacing: 0px;
+      line-height: 28px;
+      color: #2e2d33;
+      padding: 20px;
+      margin-left: 280px;
+      width: 750px;
+    text-align: center !important;
+  }
+  
+  .botao-f11 a{
+    background-color: #ee2e5d;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 25px 40px 30px 40px;
+    line-height: 69px;
+    height: 69px;
+    font-weight: 700;
+    margin-left: 250px;
+  }
+  
+  .faixa-12 {
+    display: flex;
+    flex-direction: row;
+    
+    background-color: #2e2d33;
+  
+    justify-content: center;
+    }
+    
+    .rodape {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+      margin-top: 4em;
+    }
+    .logo {
+      margin-left: 1em;
+      justify-content: space-around;
+    }
+    .menu {
+      display: flex;
+      flex-direction:row;
+      margin-right: 200px;
+      margin-left:  200px;
+    }
+  
+  .menu-item {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+  }
+  .menu-item img {
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+    
+  }
+  .texto {
+    color: white;
+    font-family: 'Source Sans Pro',Roboto,Sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px; 
+  }
+  
+  .faixa-12 p{
+  font-size: 11px;
+  }
+  
+  @media (max-width: 1024px) {
+    .faixa-12, .rodape, .logo, .menu, .texto {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      }
+      .menu {
+        flex-direction: row;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        }
+  }
